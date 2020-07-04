@@ -1,0 +1,245 @@
+body {
+    height: 100vh;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Sriracha', cursive;
+    header {
+        height: 20%;
+        width: 100%;
+        .head1 {
+            height: 75%;
+            width: 100%;
+            background-color: #fff5e6;
+            .logos {
+                padding-left: 0;
+                .logo {
+                    font-size: 2rem;
+                }
+                .titre {
+                    right: 30%;
+                    color: #fc6331;
+                }
+            }
+            .searchbar {
+                .search {
+                    color: white;
+                    left: 38%;
+                    background: black;
+                    height: 4vh;
+                    button {
+                        background: transparent;
+                        border: transparent;
+                        width: 100%;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .head2 {
+        width: 100%;
+        height: 25%;
+        background-color: #ff541f;
+        .menu {
+            height: 100%;
+            padding-left: 0;
+            .home {
+                background-color: black;
+                height: 100%;
+                width: 3.5%;
+            }
+            .buton {
+                background-color: #ff541f;
+                height: 100%;
+                width: 7.5%;
+                border: transparent;
+                border-right: black solid 1px;
+            }
+        }
+    }
+    background-image: url();
+    main {
+        height: 100%;
+        width: 100%;
+        .main1 {
+            height: 60%;
+            width: 100%;
+            background-color: #2f3229;
+            .exca {
+                width: 50%;
+                height: 100%;
+            }
+            .choix {
+                padding: 0;
+                .buton2 {
+                    width: 14%;
+                    height: 12.5%;
+                    border: transparent;
+                    background-color: #373e33;
+                }
+                .buton2:hover {
+                    background-color: #9fc3a7;
+                }
+                .titreIMG {
+                    width: 100%;
+                    text-align: justify;
+                    color: #c9c7b9;
+                    padding-left: 5%;
+                    h5 {
+                        font-size: 2rem;
+                    }
+                }
+                .textIMG {
+                    padding-left: 5%;
+                    color: #778e7b;
+                    p {
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .main2 {
+            height: 100%;
+            width: 100%;
+            background-color: #fff5e6;
+            .descrip {
+                padding-top: 5%;
+                border-bottom: solid 1px gray;
+                padding-bottom: 5%;
+                .imgL {
+                    width: 100%;
+                    height: 25%;
+                }
+                h6 {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                }
+                .buton3 {
+                    background-color: #fff5e6;
+                    color: #8a877f;
+                    border: solid 1px #8a877f;
+                    width: 30%;
+                    position: absolute;
+                    z-index: 1;
+                }
+                .buton3:hover {
+                    background-color: #33362d;
+                    color: #95998e;
+                    border: solid 1px #33362d;
+                }
+            }
+            .descrip1 {
+                padding-left: 0;
+            }
+        }
+        .main3 {
+            height: 100%;
+            width: 100%;
+            background-color: #fff5e6;
+            .titre3 {
+                padding-top: 12.5%;
+                text-align: left;
+                .circles {
+                    height: 50%;
+                    width: 100%;
+                    .circle {
+                        width: 100%;
+                        height: 75%;
+                        border-radius: 50%;
+                        background-color: #eaebda;
+                        .iconT {
+                            padding-left: 41%;
+                            padding-top: 15%;
+                            font-size: 2rem;
+                            color: #50574b;
+                        }
+                        .titre4 {
+                            text-align: center;
+                            font-family: 'Yellowtail', cursive;
+                            font-size: 1.5rem;
+                            color: #50574b;
+                        }
+                        .textS {
+                            color: #50574b;
+                            text-align: center;
+                            font-size: 0.75rem;
+                        }
+                    }
+                    .circle:hover {
+                        background-color: #33362d;
+                        .iconT {
+                            color: #8cae97;
+                        }
+                        .titre4 {
+                            color: #8cae97;
+                        }
+                        .textS {
+                            color: #8cae97;
+                        }
+                    }
+                }
+                .storie {
+                    border-radius: 10%;
+                    width: 80%;
+                    height: 40%;
+                    background-color: #33362d;
+                    .textT {
+                        padding-left: 5%;
+                        padding-right: 5%;
+                        text-align: justify;
+                        padding-top: 5%;
+                        color: #687168;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 68%;
+        height: 50%;
+        width: 100%;
+        .foot1 {
+            height: 20%;
+            width: 100%;
+            background-color: #ff541f;
+            .butonF {
+                width: 110%;
+                height: 100%;
+                background-color: #33362d;
+                text-align: right;
+                .butonS {
+                    border: solid #6f716a 1px;
+                    background-color: #33362d;
+                }
+                .input1 {
+                    background-color: #43493e;
+                    width: 70%;
+                    border: transparent;
+                }
+            }
+        }
+        .foot2 {
+            background-color: #33362d;
+            height: 60%;
+            width: 100%;
+            text-align: left;
+            .titre7 {
+                padding-left: 10%;
+                width: 70%;
+                color: #d3d1c4;
+            }
+            .liste {
+                color: #d3d1c4;
+            }
+        }
+        .foot3 {
+            height: 20%;
+            background-color: #fff5e6;
+            color: #b7b2a5;
+        }
+    }
+}
+
+.row {
+    margin: 0;
+}
